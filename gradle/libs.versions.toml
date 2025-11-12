@@ -24,7 +24,6 @@ kotlinx-coroutines-test = "1.8.1"
 gson = "2.11.0"
 retrofit = "2.9.0"
 retrofit-converter-gson = "2.9.0"
-adapter-rxjava2 = "2.9.0"
 okhttp = "4.9.1"
 logging-interceptor = "4.9.0"
 glide = "4.15.0"
@@ -59,7 +58,6 @@ kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-cor
 gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
 retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
 retrofit-converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit-converter-gson" }
-adapter-rxjava2 = { group = "com.squareup.retrofit2", name = "adapter-rxjava2", version.ref = "adapter-rxjava2" }
 okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
 logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "logging-interceptor" }
 glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
