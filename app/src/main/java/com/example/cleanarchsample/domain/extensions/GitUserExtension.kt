@@ -9,7 +9,6 @@ fun List<GitUserResponse>.toUser(): List<GitUser> =
         GitUser(
             id = user.id.toString(),
             imgUrl = user.avatarUrl,
-            name = user.login,
             login = user.login,
             publicRepo = 0
         )
