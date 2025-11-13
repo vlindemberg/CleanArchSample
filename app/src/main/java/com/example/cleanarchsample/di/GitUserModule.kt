@@ -5,6 +5,7 @@ import com.example.cleanarchsample.data.datasource.GitRepoRemoteDataSourceImpl
 import com.example.cleanarchsample.data.datasource.GitUserRemoteDataSource
 import com.example.cleanarchsample.data.datasource.GitUserRemoteDataSourceImpl
 import com.example.cleanarchsample.data.repository.GitRepoRepositoryImpl
+import com.example.cleanarchsample.data.repository.GitUserRepositoryImpl
 import com.example.cleanarchsample.data.service.GitRepoService
 import com.example.cleanarchsample.data.service.GitUserService
 import com.example.cleanarchsample.domain.repository.GitRepoRepository
@@ -23,7 +24,7 @@ import retrofit2.create
 interface UserModule {
 
     @Binds
-    fun bindGitUserRepository(gitUserRepository: GitUserRepository): GitUserRepository
+    fun bindGitUserRepository(gitUserRepository: GitUserRepositoryImpl): GitUserRepository
 
     @Binds
     fun bindGitUserRemoteDataSource(gitUserRemoteDataSource: GitUserRemoteDataSourceImpl): GitUserRemoteDataSource

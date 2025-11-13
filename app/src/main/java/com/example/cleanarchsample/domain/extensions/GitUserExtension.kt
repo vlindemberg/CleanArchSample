@@ -18,7 +18,7 @@ fun GitUserDetailsResponse.toUserDetails(): GitUser =
     GitUser(
         id = this.id.toString(),
         imgUrl = this.avatarUrl,
-        name = this.name,
+        name = this.login,
         login = this.login,
         publicRepo = this.publicRepos
     )

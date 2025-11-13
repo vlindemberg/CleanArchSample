@@ -16,6 +16,6 @@ fun List<GitUser>.toUsersViewData() = this.map { user ->
     GitUserViewData(
         id = user.id,
         imgUrl = user.imgUrl,
-        name = user.name,
+        name = user.login,
     )
 }
