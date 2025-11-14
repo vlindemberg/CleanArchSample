@@ -101,7 +101,7 @@ class GitUsersFragment : Fragment() {
     }
 
     private fun navigateToUserDetails(name: String) {
-        TODO("Not yet implemented")
+        navControl.navigate(GitUsersFragmentDirections.actionUserListToUsersDetailsFragment(name))
     }
 
     private fun setupLoading(loading: Boolean) {

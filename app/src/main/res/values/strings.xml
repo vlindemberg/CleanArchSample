@@ -4,4 +4,5 @@
     <string name="git_branch_icone_description">Git Branch Icone</string>
     <string name="empty_list_text">User not found!</string>
     <string name="empty_list_icon">Empty List Icon</string>
+    <string name="section_title">Repositories</string>
 </resources>
